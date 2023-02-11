@@ -1,11 +1,13 @@
-*{
+/*{
 border:red solid 2px;
 
 
 
-}
+}*/
 body{
     height: 2000px;
+    text-align: center;
+    justify-content: center;
 }
 
 
@@ -81,3 +83,47 @@ font-size: xx-large;
     width: auto;
 
   }
+  .first-part-content{
+    width: 100%;
+
+
+
+
+  }
+
+
+  .boxes{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+   
+  } 
+
+
+.box{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    border: #3882f6 solid 2px;
+
+}
+.box img{
+width: 250px;
+height:225px;
+
+}
+.box .p{
+  display: flex;
+    align-self: flex-end;
+    margin-top: 20px;
+    flex-wrap: wrap;
+
+    
+
+}
+.box.img {
+  height: 225px;
+
+
+}
