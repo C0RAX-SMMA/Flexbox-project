@@ -4,6 +4,10 @@ border:red solid 2px;
 
 
 }
+body{
+    height: 2000px;
+}
+
 
 
 
@@ -65,7 +69,15 @@ font-size: xx-large;
 }
 .head-button{
     background-color: #3882f6;
-
-    
+    height: max-content;
+    width :max-content;
+    font-size: x-large;
 
 }
+  .first-part{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    width: auto;
+
+  }
