@@ -4,17 +4,68 @@ border:red solid 2px;
 
 
 }
+
+
+
 .head{
-display: flex;
-flex-direction: row;
+    display: flex;
+    flex-direction: column;
 justify-content: space-between;
-height: 300px;
+height: 500px;
+background-color: #1f2937;
+color: white;
 
 
 
 }
+.upper{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+    
+    
+}
 .right-links{
-display:flex;
+display:flex; 
+gap: 15px;
+margin-right: 10rem;
+height: max-content;
 
+}
+.logo{
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 10rem;
+    height: max-content;
+}
+.head-content{
+    align-self: center;
+margin:50px;
+display: flex;
+
+
+
+}
+.linning-head{
+display: flex;
+
+
+
+
+
+}
+
+
+.main-head{
+font-weight: bolder;
+font-size: xx-large;
+
+
+
+}
+.head-button{
+    background-color: #3882f6;
+
+    
 
 }
