@@ -1,9 +1,4 @@
-/*{
-border:red solid 2px;
 
-
-
-}*/
 body{
     height: 2000px;
     text-align: center;
@@ -51,10 +46,11 @@ display: flex;
 
 
 
+
 }
 .linning-head{
-display: flex;
 
+width: max-content;
 
 
 
@@ -64,7 +60,10 @@ display: flex;
 
 .main-head{
 font-weight: bolder;
-font-size: xx-large;
+font-size: 48px;
+color: #f9faf8; 
+display: flex;
+
 
 
 
@@ -110,7 +109,7 @@ font-size: xx-large;
 }
 .box img{
 width: 250px;
-height:225px;
+height:250px;
 
 }
 .box .p{
@@ -122,8 +121,29 @@ height:225px;
     
 
 }
-.box.img {
-  height: 225px;
+
+.second-part{
+background-color: #e5e7eb;
+display: flex;
+justify-content: center;
+font-size: 36px;
+font-style: italic;
+color: #1f2937;
+align-items: flex-end;
+
+}
+
+.third-part{
+height: 200px;
+background-color: #3882f6;
 
 
+}
+.third-content{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+font-size: 36px;
+gap: 50px;
 }
